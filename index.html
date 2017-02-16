@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+	<link href="index.css" rel="stylesheet">
+
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<title> Web Cookie Demo</title>
+
+	
+</head>
+
+<body onload="checkCookie()">
+	<div class="qs" id="qs">
+		<h1 id="welcome">Welcome!</h1>
+		<form>
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">First Name</label>
+		    <input type="input" class="form-control" id="firstname" placeholder="John">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">Last Name</label>
+		    <input type="input" class="form-control" id="lastname" placeholder="Doe">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">Email address</label>
+		    <input type="email" class="form-control" id="email" placeholder="John.doe@doe.com">
+		  </div>
+		  <h3>What is your favorite color?</h3>
+		  <div class="radio" id="colors">
+
+			    <label class="radio-inline">
+			      <input type="radio" name="color_options" value="red"> Red
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="color_options" value="blue"> Blue
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="color_options" value="green"> Green
+			    </label>
+
+			    <label class="radio-inline">
+			    	<input type="radio" name="color_options" value="purple"> Purple
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="color_options" value="yellow"> Yellow
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="color_options" value="orange">Orange
+			    </label>
+			    <label class="radio-inline">
+			    	<input type="radio" name="color_options" value="white">White
+			    </label>
+
+		  </div>
+		  <button type="submit" class="btn btn-default" id="submit">Submit</button>
+		</form>
+	</div>
+
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="index.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	
+
+</body>
+
+</html>

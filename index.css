@@ -1,0 +1,14 @@
+*{
+	font-family: 'Slabo 27px', serif;
+}
+
+label{
+	font-size: 15px;
+}
+
+.qs{
+	margin: 20px;
+	padding: 20px;
+	border-width: 2px;
+	border-style: solid;
+}
